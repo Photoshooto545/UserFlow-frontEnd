@@ -4,6 +4,8 @@ import HomePage from './Pages/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import NotfoundPage from './Pages/NotfoundPage/NotfoundPage'
+import PicVersionPopup from './Components/popup/PicVersionPopup'
+
 function App() {
   return (
     <Router>
@@ -12,6 +14,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route component={NotfoundPage} />
       </Switch>
+      <PicVersionPopup/>
       <Footer />
     </Router>
   );
