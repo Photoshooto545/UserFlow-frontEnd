@@ -56,6 +56,7 @@ const MyCarousel = () => {
     //         </div>
     //     );
     // };
+    
 
     const handleDislike = (e, image, index) => {
         dislikedImages.push({ id: index, image: image })
