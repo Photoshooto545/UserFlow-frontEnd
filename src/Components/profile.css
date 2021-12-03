@@ -1,0 +1,110 @@
+.main-div{
+    background-color: #ffffff;
+    display: flex;
+    margin-left: 40px;
+}
+.profile-arrow{
+    display:flex;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+.arrow{
+    font-size: 2rem;
+}
+.heading {
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.box{
+    margin-left:  50px;
+    width: 250px;
+    height: 480px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.12), 0px 1px 4px rgba(0,0,0,0.24);
+    padding: 40px;
+}
+
+li{
+    padding: 20px;
+    border-bottom: 2px solid rgb(233, 232, 232);
+    
+}
+
+.Photographer{
+    margin: 50px 70px;
+  
+}
+ .details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+
+}
+.title{
+    display: inline-block;
+    margin: 30px;
+    border-bottom: 2px solid rgb(233, 232, 232);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label-class{
+    text-align: left;
+    font-size: 0.7rem;
+}
+.edit{
+    position: relative;
+}
+.edit-btn{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color:  rgb(187, 182, 182);
+}
+.title{
+    font-size: 1.5rem;
+}
+.input-class{
+    width: 270px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.12);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.12), 0px 1px 1px rgba(0,0,0,0.12);
+}
+.btn{
+    margin: 50px ;
+}
+.buton{
+    border: 3px solid rgb(247, 91, 91);
+    padding: 4px;
+    color: rgb(250, 69, 69);
+    width: 250px;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.pic{
+    margin: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid  rgb(187, 182, 182);;
+    position: relative;
+}
+.edit-btn2{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    color: rgb(187, 182, 182);
+}
+@media screen and (max-width: 600px){
+    .main-div{
+        flex-wrap: wrap;
+    }
+}
